@@ -1,7 +1,7 @@
-alias nvim="flatpak run io.neovim.nvim"
+# alias.sh
 alias copy="xclip -selection clipboard"
 alias paste="xclip -selection clipboard -o"
 
-export SHELL=/bin/bash
-export EDITOR=/bin/nvim
-export PATH="$PATH:$HOME/.local/bin"
+if systemd-detect-virt == "none"
+    alias nvim="flatpak run io.neovim.nvim"
+fi
