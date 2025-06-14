@@ -1,5 +1,4 @@
 # !/bin/bash
-set -euxo pipefail
 WORKDIR=$(pwd)
 CONFIG_DIR="${OSH_CUSTOM:-$HOME/.config/bash}"
 
