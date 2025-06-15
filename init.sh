@@ -23,8 +23,6 @@ function load_settingfile() {
 		if [ -f "$file" ]; then
 		    if ! source "$file"; then
 			echo "⚠️ 読み込み失敗: $file" >&2
-		    else
-			echo "✅ 読み込み成功: $file"
 		    fi
 		fi
 	    done
