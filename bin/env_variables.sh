@@ -1,7 +1,7 @@
 # env_variables
 export SHELL=/bin/bash
 export EDITOR=/bin/nvim
-export $XDG_CONFIG_HOME=$HOME/.config
+export XDG_CONFIG_HOME="$HOME/.config"
 # バイナリの場所（ローカル）
 export PATH="$PATH:$HOME/.local/bin"
 
