@@ -10,8 +10,6 @@ function update() {
 		git pull origin main || {
 			echo "Errer: failure update"
 		}
-	else
-		echo "$CONFIG_DIR not repo"
 	fi
 
 }
